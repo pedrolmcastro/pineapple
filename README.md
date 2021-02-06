@@ -1,2 +1,1 @@
-# pineapple
- A pineapple site
+# Pineapple
