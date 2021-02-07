@@ -1,0 +1,35 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fafafa;
+}
+
+
+header
+{
+    text-align: center;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+img
+{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.350);
+}
+
+footer
+{
+    text-align: center;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: unset;
+}
