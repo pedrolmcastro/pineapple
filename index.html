@@ -13,7 +13,11 @@
         <h1>Pineapple!</h1>
     </header>
     <picture>
-        <img src="images/pineapple.jpg" alt="Pineapple Image" width="720px">
+        <source media="(min-width: 2560px)" srcset="images/pineapple/1920.jpg" type="image/jpeg">
+        <source media="(min-width: 1920px)" srcset="images/pineapple/1280.jpg" type="image/jpeg">
+        <source media="(min-width: 900px)" srcset="images/pineapple/960.jpg" type="image/jpeg">
+        <source media="(min-width: 420px)" srcset="images/pineapple/630.jpg" type="image/jpeg">
+        <img src="images/pineapple/420.jpg" alt="pineapple">
     </picture>
     <footer>
         <p>

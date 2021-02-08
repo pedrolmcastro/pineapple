@@ -16,8 +16,27 @@ img
 {
     display: block;
     margin: auto;
+    width: 50%;
     border-radius: 10px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.350);
+}
+
+/*Mobile*/
+@media screen and (max-width: 420px)
+{
+    img
+    {
+        width: 100%;
+    }
+}
+
+/*Tablets*/
+@media screen and (min-width: 420px) and (max-width: 900px)
+{
+    img
+    {
+        width: 70%;
+    }
 }
 
 footer
